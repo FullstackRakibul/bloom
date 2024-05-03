@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Flex, Input, Radio } from "antd";
+import { Button, Input } from "antd";
 
 const HomeBannerSection = () => {
   //const baseStyle = { width: "100%", height: 400 };
@@ -9,10 +9,6 @@ const HomeBannerSection = () => {
         <Input />
         <Button>submit</Button>
       </section>
-      {/* <Flex horizontal style={{}}>
-        <Input />
-        <Button>submit</Button>
-      </Flex> */}
     </>
   );
 };

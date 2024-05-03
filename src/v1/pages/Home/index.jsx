@@ -6,6 +6,7 @@ const HomaPage = () => {
   return (
     <>
       <Header />
+      <HomeBannerSection />
     </>
   );
 };

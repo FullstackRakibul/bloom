@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, ConfigProvider, Space } from "antd";
+import { ConfigProvider } from "antd";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ModulesRoutes from "./v1/routes/modules";
 
@@ -9,7 +9,7 @@ const App: React.FC = () => (
       token: {
         // Seed Token
         colorPrimary: "#ff5f20",
-        borderRadius: 2,
+        borderRadius: 1,
 
         // Alias Token
         colorBgContainer: "#F3F8FF",

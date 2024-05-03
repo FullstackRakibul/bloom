@@ -5,5 +5,19 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    // {
+    //   plugin: CracoLessPlugin,
+    //   options: {
+    //     lessLoaderOptions: {
+    //       lessOptions: {
+    //         modifyVars: {
+    //           "@primary-color": "#ff5f20",
+    //         },
+    //         javascriptEnable: true,
+    //       },
+    //     },
+    //   },
+    // },
+  ],
 };
